@@ -1,18 +1,20 @@
 <template>
   <div id="app">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <calc/>
+    <secondCalc/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import calc from './components/calc.vue'
+// import calc from './components/calc.vue'
+import secondCalc from './components/secondCalc.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    calc
+    // calc,
+    secondCalc
   }
 }
 </script>
